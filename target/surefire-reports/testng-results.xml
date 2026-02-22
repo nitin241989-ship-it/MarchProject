@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-21T16:11:50 IST" name="Suite" finished-at="2026-02-21T16:12:15 IST" duration-ms="24926">
+    <groups>
+    </groups>
+    <test started-at="2026-02-21T16:11:50 IST" name="Test" finished-at="2026-02-21T16:12:15 IST" duration-ms="24926">
+      <class name="testCases.RegisterAccount">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:11:52 IST" name="setup" finished-at="2026-02-21T16:11:55 IST" duration-ms="3230" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reg_MandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:11:55 IST" name="reg_MandatoryFields" data-provider="MandatoryData" finished-at="2026-02-21T16:11:58 IST" duration-ms="2544" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Vivek]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Kumar]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[vivek]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reg_MandatoryFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:11:58 IST" name="tearDown" finished-at="2026-02-21T16:11:58 IST" duration-ms="648" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reg_MandatoryFields status=SUCCESS method=RegisterAccount.reg_MandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.RegisterAccount@123ef382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:11:58 IST" name="setup" finished-at="2026-02-21T16:12:00 IST" duration-ms="2117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reg_MandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:00 IST" name="reg_MandatoryFields" data-provider="MandatoryData" finished-at="2026-02-21T16:12:02 IST" duration-ms="2172" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Rahul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Sharma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[rahul]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[9999999999]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reg_MandatoryFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:02 IST" name="tearDown" finished-at="2026-02-21T16:12:03 IST" duration-ms="174" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reg_MandatoryFields status=SUCCESS method=RegisterAccount.reg_MandatoryFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:testCases.RegisterAccount@123ef382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:03 IST" name="setup" finished-at="2026-02-21T16:12:05 IST" duration-ms="1960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reg_AllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:05 IST" name="reg_AllFields" data-provider="AllFieldsData" finished-at="2026-02-21T16:12:07 IST" duration-ms="2299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Amit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Singh]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[amit]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8888888888]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reg_AllFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:07 IST" name="tearDown" finished-at="2026-02-21T16:12:07 IST" duration-ms="245" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reg_AllFields status=SUCCESS method=RegisterAccount.reg_AllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.RegisterAccount@123ef382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:07 IST" name="setup" finished-at="2026-02-21T16:12:09 IST" duration-ms="2195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reg_AllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:09 IST" name="reg_AllFields" data-provider="AllFieldsData" finished-at="2026-02-21T16:12:12 IST" duration-ms="2189" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Neha]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Verma]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[neha]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[7777777777]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reg_AllFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:12 IST" name="tearDown" finished-at="2026-02-21T16:12:12 IST" duration-ms="176" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reg_AllFields status=SUCCESS method=RegisterAccount.reg_AllFields(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:2, instance:testCases.RegisterAccount@123ef382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:12 IST" name="setup" finished-at="2026-02-21T16:12:14 IST" duration-ms="1856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="reg_NoFields(java.lang.String)[pri:3, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:14 IST" name="reg_NoFields" data-provider="NegativeData" finished-at="2026-02-21T16:12:15 IST" duration-ms="1145" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Warning: You must agree to the Privacy Policy!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reg_NoFields -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:testCases.RegisterAccount@123ef382]" started-at="2026-02-21T16:12:15 IST" name="tearDown" finished-at="2026-02-21T16:12:15 IST" duration-ms="181" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=reg_NoFields status=SUCCESS method=RegisterAccount.reg_NoFields(java.lang.String)[pri:3, instance:testCases.RegisterAccount@123ef382] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testCases.RegisterAccount -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
